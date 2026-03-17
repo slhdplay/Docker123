@@ -5,22 +5,30 @@
 Выполняем команду:
 ```bash
 docker pull httpd
+
 https://raw.githubusercontent.com/s1hdplay/Docker123/main/Docker-pr/pull.png
 
 ## 2. Запуск контейнера
 
 Запускаем контейнер в фоновом режиме, пробрасывая порт 8080 хоста на порт 80 контейнера:
+bash
+
 docker run -d -p 8080:80 --name my-apache-app httpd
-Docker-pr/run.png
+
+https://raw.githubusercontent.com/s1hdplay/Docker123/main/Docker-pr/run.png
 
 ## 3. Проверка запущенных контейнеров
 
 Убеждаемся, что контейнер работает:
+bash
+
 docker ps
-Docker-pr/ps.png
+
+https://raw.githubusercontent.com/s1hdplay/Docker123/main/Docker-pr/ps.png
 
 ## 4. Проверка работы веб-сервера
 
 Открываем браузер и переходим по адресу http://localhost:8080.
 Видим стандартную страницу Apache:
-Docker-pr/browser.png
+https://raw.githubusercontent.com/s1hdplay/Docker123/main/Docker-pr/browser.png
+text
