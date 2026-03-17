@@ -5,7 +5,7 @@
 Выполняем команду:
 ```bash
 docker pull httpd
-![Скачивание образа](pull.png)
+https://raw.githubusercontent.com/s1hdplay/Docker123/main/Docker-pr/pull.png
 
 ## 2. Запуск контейнера
 
