@@ -5,22 +5,22 @@
 Выполняем команду:
 ```bash
 docker pull httpd
-https://pull.png
+Docker-pr/pull.png
 
 ## 2. Запуск контейнера
 
 Запускаем контейнер в фоновом режиме, пробрасывая порт 8080 хоста на порт 80 контейнера:
 docker run -d -p 8080:80 --name my-apache-app httpd
-https://run.png
+Docker-pr/run.png
 
 ## 3. Проверка запущенных контейнеров
 
 Убеждаемся, что контейнер работает:
 docker ps
-https://con.png
+Docker-pr/ps.png
 
 ## 4. Проверка работы веб-сервера
 
 Открываем браузер и переходим по адресу http://localhost:8080.
 Видим стандартную страницу Apache:
-https://browser.png
+Docker-pr/browser.png
