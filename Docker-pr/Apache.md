@@ -6,7 +6,7 @@
 ```bash
 docker pull httpd
 
-https://pull.png
+![Запуск](https://raw.githubusercontent.com/s1hdplay/Docker123/main/Docker-pr/pull.png)
 2. Запуск контейнера
 
 Запускаем контейнер в фоновом режиме, пробрасывая порт 8080 хоста на порт 80 контейнера:
